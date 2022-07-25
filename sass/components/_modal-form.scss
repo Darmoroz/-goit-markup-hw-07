@@ -7,7 +7,7 @@
 	background-color: getColor('white');
 	border-radius: 4px;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-	transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+	transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1) 500ms;
 
 	// .modal__label
 
@@ -62,7 +62,7 @@
 	&__input {
 		width: 100%;
 		margin-top: 4px;
-		padding: 11px 12px 11px 30px;
+		padding: 11px 12px 11px 42px;
 		border: 1px solid getColor('borderInput');
 		border-radius: 4px;
 		transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -112,6 +112,7 @@
 		font-size: 0.875em;
 		line-height: 1.715;
 		white-space: nowrap;
+		color: getColor('secondaryText');
 	}
 
 	// .form__link

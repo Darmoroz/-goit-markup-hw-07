@@ -52,7 +52,7 @@
 		@include absTopLeft();
 		bottom: 0;
 		padding: 63px 24px;
-		transform: translateX(-100%);
+		transform: translateY(100%);
 		font-size: 1.125em;
 		line-height: 1.555;
 		color: getColor('white');
